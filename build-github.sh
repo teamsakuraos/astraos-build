@@ -29,7 +29,7 @@ function InstallDepends() {
     apt-get --yes install git  devscripts equivs
     rm -rfv astraOSBuildDeps
     git clone https://github.com/teamsakuraos/astraOSBuildDeps.git
-    cd LingmoOSBuildDeps
+    cd astraOSBuildDeps
     mk-build-deps -i -t "apt-get -y" -r  > /dev/null
 }
 
