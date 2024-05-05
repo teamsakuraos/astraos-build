@@ -64,7 +64,7 @@ function Compile() {
     cd $source_dir
     mv -v !(*dbgsym*).deb $deb_dir/
 }
-REPOS="astra-screenlocker astra-settings astra-screenshots lingmo-cursor-themes astra-sddm-theme astra-appmotor lingmo-neofetch lingmo-daemon lingmo-ocr astra-terminal astra-gtk-themes PetalyUI astra-systemicons astra-wallpapers lingmo-debinstaller astra-calculator astra-launcher astra-statusbar lingmo-qt-plugins astra-dock liblingmo lingmo-filemanager lingmo-core astra-texteditor lingmo-kwin-plugins lingmo-videoplayer"
+REPOS="astra-screenlocker astra-settings astra-screenshots lingmo-cursor-themes astra-sddm-theme astra-appmotor lingmo-neofetch lingmo-daemon lingmo-ocr astra-terminal astra-gtk-themes PetalyUI astra-systemicons astra-wallpapers lingmo-debinstaller astra-calculator astra-launcher astra-statusbar lingmo-qt-plugins astra-dock liblingmo lingmo-filemanager lingmo-core astra-texteditor lingmo-kwin-plugins lingmo-videoplayer astra-plymouth-theme"
 
 # 先安装依赖
 InstallDepends
@@ -97,6 +97,7 @@ lingmo-core \
 astra-texteditor \
 lingmo-kwin-plugins \
 lingmo-videoplayer \
+astra-plymouth-theme \
 all \
 quit
 
